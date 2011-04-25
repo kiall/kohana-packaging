@@ -16,15 +16,9 @@
 [submodule "modules/image"]
 	path = modules/image
 	url = https://github.com/kohana/image.git
-[submodule "modules/oauth"]
-	path = modules/oauth
-	url = https://github.com/kohana/oauth.git
 [submodule "modules/orm"]
 	path = modules/orm
 	url = https://github.com/kohana/orm.git
-[submodule "modules/pagination"]
-	path = modules/pagination
-	url = https://github.com/kohana/pagination.git
 [submodule "modules/unittest"]
 	path = modules/unittest
 	url = https://github.com/kohana/unittest.git
