@@ -1,6 +1,6 @@
 # Kohana Packaging
 
-Currently providing .deb's of kohana 3.1 and 3.2. RPMs might come in someone donates a .spec file!
+Currently providing .deb's of kohana 3.0 and 3.1. RPMs might come in someone donates a .spec file!
 
 ## Debian/Ubuntu Packages
 
