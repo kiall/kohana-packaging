@@ -1,0 +1,71 @@
+Source: kohana3.0
+Section: web
+Priority: optional
+Maintainer: Kiall Mac Innes <kiall.macinnes@kohanaphp.com>
+Homepage: http://www.kohanaframework.org/
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+
+Package: kohana3.0
+Architecture: all
+Description: Kohana 
+Depends: kohana3.0-core (= ${binary:Version}), kohana3.0-mod-auth (= ${binary:Version}), kohana3.0-mod-cache (= ${binary:Version}), kohana3.0-mod-codebench (= ${binary:Version}), kohana3.0-mod-database (= ${binary:Version}), kohana3.0-mod-image (= ${binary:Version}), kohana3.0-mod-orm (= ${binary:Version}), kohana3.0-mod-unittest (= ${binary:Version}), kohana3.0-mod-userguide (= ${binary:Version})
+
+Package: kohana3.0-core
+Architecture: all
+Description: Kohana Core
+Depends: libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+Suggests: php5-mcrypt (>= 5.2.3), php5-curl (>= 5.2.3), php5-gd (>= 5.2.3), 
+
+Package: kohana3.0-mod-auth
+Architecture: all
+Description: Kohana Auth Module
+Depends: kohana3.0-core (= ${binary:Version})
+Suggests: kohana3.0-mod-orm (= ${binary:Version}), kohana3.0-mod-database (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-cache
+Architecture: all
+Description: Kohana Cache Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+Suggests: php5-xcache (>= 5.2.3), php5-memcache (>= 5.2.3), php-apc (>= 3.1.3p1-2)
+
+Package: kohana3.0-mod-codebench
+Architecture: all
+Description: Kohana CodeBench Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-database
+Architecture: all
+Description: Kohana Database Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+Suggests: php5-mysql (>= 5.2.3)
+
+Package: kohana3.0-mod-image
+Architecture: all
+Description: Kohana Image Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-oauth
+Architecture: all
+Description: Kohana OAuth Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-orm
+Architecture: all
+Description: Kohana ORM Module
+Depends: kohana3.0-core (= ${binary:Version}), kohana3.0-mod-database (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-pagination
+Architecture: all
+Description: Kohana Pagination Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-unittest
+Architecture: all
+Description: Kohana UnitTest Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+
+Package: kohana3.0-mod-userguide
+Architecture: all
+Description: Kohana UserGuide Module
+Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
