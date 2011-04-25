@@ -1,3 +1,9 @@
+kohana3.0 (3.0.10-2) kohana; urgency=low
+
+  * Correctly depend on the oauth and pagination modules
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Mon, 25 Apr 2011 20:50:44 +0100
+
 kohana3.0 (3.0.10-1) kohana; urgency=low
 
   * Kohana v3.0.10

@@ -9,7 +9,7 @@ Standards-Version: 3.9.1
 Package: kohana3.0
 Architecture: all
 Description: Kohana 
-Depends: kohana3.0-core (= ${binary:Version}), kohana3.0-mod-auth (= ${binary:Version}), kohana3.0-mod-cache (= ${binary:Version}), kohana3.0-mod-codebench (= ${binary:Version}), kohana3.0-mod-database (= ${binary:Version}), kohana3.0-mod-image (= ${binary:Version}), kohana3.0-mod-orm (= ${binary:Version}), kohana3.0-mod-unittest (= ${binary:Version}), kohana3.0-mod-userguide (= ${binary:Version})
+Depends: kohana3.0-core (= ${binary:Version}), kohana3.0-mod-auth (= ${binary:Version}), kohana3.0-mod-cache (= ${binary:Version}), kohana3.0-mod-codebench (= ${binary:Version}), kohana3.0-mod-database (= ${binary:Version}), kohana3.0-mod-image (= ${binary:Version}), kohana3.0-mod-oauth (= ${binary:Version}), kohana3.0-mod-orm (= ${binary:Version}), kohana3.0-mod-pagination (= ${binary:Version}), kohana3.0-mod-unittest (= ${binary:Version}), kohana3.0-mod-userguide (= ${binary:Version})
 
 Package: kohana3.0-core
 Architecture: all
