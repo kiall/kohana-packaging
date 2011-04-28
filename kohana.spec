@@ -1,13 +1,13 @@
 Summary: KohanaPHP
 Name: kohana3.0
 Version: 3.0.10
-Release: 1
+Release: 2
 Group: Web/Frameworks
 License: BSD
 URL: http://kohanaframework.org/
 Source0: kohana-%{version}.zip
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-Requires: php5
+Requires: php
 Packager: Kohana Team <team@kohanaframework.org>
 BuildArch: noarch
 Requires: kohana3.0-core = %{version}-%{release}
