@@ -11,16 +11,16 @@ Requires: php >= 5.2.3, webserver
 Packager: Kohana Team <team@kohanaframework.org>
 BuildArch: noarch
 Requires: kohana3.0-core = %{version}-%{release}
-Requires: kohana3.0-mod-auth
-Requires: kohana3.0-mod-cache
-Requires: kohana3.0-mod-codebench
-Requires: kohana3.0-mod-database
-Requires: kohana3.0-mod-image
-Requires: kohana3.0-mod-oauth
-Requires: kohana3.0-mod-orm
-Requires: kohana3.0-mod-pagination
-Requires: kohana3.0-mod-unittest
-Requires: kohana3.0-mod-userguide
+Requires: kohana3.0-mod-auth = %{version}-%{release}
+Requires: kohana3.0-mod-cache = %{version}-%{release}
+Requires: kohana3.0-mod-codebench = %{version}-%{release}
+Requires: kohana3.0-mod-database = %{version}-%{release}
+Requires: kohana3.0-mod-image = %{version}-%{release}
+Requires: kohana3.0-mod-oauth = %{version}-%{release}
+Requires: kohana3.0-mod-orm = %{version}-%{release}
+Requires: kohana3.0-mod-pagination = %{version}-%{release}
+Requires: kohana3.0-mod-unittest = %{version}-%{release}
+Requires: kohana3.0-mod-userguide = %{version}-%{release}
 
 %description
 Kohana is an elegant HMVC PHP5 framework that provides 
