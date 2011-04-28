@@ -1,8 +1,8 @@
 # Kohana Packaging
 
-Currently providing .deb's of kohana 3.0 and 3.1. RPMs might come in someone donates a .spec file!
+Currently providing .deb's and .rpms's of kohana 3.0 and 3.1.
 
-## Debian/Ubuntu Packages
+## Debian / Ubuntu Packages
 
 To use these packages on debian/ubuntu run the following:
 
@@ -11,3 +11,6 @@ To use these packages on debian/ubuntu run the following:
 3. `sudo apt-get update`
 4. `sudo apt-get install kohana3.0`
 
+## Redhat / CentOS / Fedora Packages
+
+Soon ...
