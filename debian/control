@@ -15,7 +15,7 @@ Package: kohana3.0-core
 Architecture: all
 Description: Kohana Core
 Depends: libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
-Suggests: php5-mcrypt (>= 5.2.3), php5-curl (>= 5.2.3), php5-gd (>= 5.2.3), 
+Suggests: php5-mcrypt (>= 5.2.3), php5-curl (>= 5.2.3)
 
 Package: kohana3.0-mod-auth
 Architecture: all
@@ -44,6 +44,7 @@ Package: kohana3.0-mod-image
 Architecture: all
 Description: Kohana Image Module
 Depends: kohana3.0-core (= ${binary:Version}), libapache2-mod-php5 (>= 5.2.3) | libapache2-mod-php5filter (>= 5.2.3) | php5-cgi (>= 5.2.3) | php5-fpm (>= 5.2.3), php5-common (>= 5.2.3)
+Suggests: php5-gd (>= 5.2.3)
 
 Package: kohana3.0-mod-oauth
 Architecture: all
