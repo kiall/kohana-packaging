@@ -70,11 +70,7 @@ Codebench Module
 %package mod-database
 Summary: Kohana Database Module
 Group: Web/Frameworks
-<<<<<<< HEAD
 Requires: kohana3.1-core = %{version}-%{release}
-=======
-Requires: kohana3.0-core = %{version}-%{release}
->>>>>>> 3.0/master
 Requires: php-mysql
 
 %description mod-database
@@ -86,11 +82,7 @@ Database Module
 %package mod-image
 Summary: Kohana Image Module
 Group: Web/Frameworks
-<<<<<<< HEAD
-Requires: kohana3.1-core = %{version}-%{release}, php-mysql
-=======
-Requires: kohana3.0-core = %{version}-%{release}, php-mysql
->>>>>>> 3.0/master
+Requires: kohana3.1-core = %{version}-%{release}
 Requires: php-gd
 
 %description mod-image
@@ -125,11 +117,7 @@ Unittest Module
 %package mod-userguide
 Summary: Kohana Userguide Module
 Group: Web/Frameworks
-<<<<<<< HEAD
 Requires: kohana3.1-core = %{version}-%{release}, php-pear-PHPUnit
-=======
-Requires: kohana3.0-core = %{version}-%{release}, php-pear-PHPUnit
->>>>>>> 3.0/master
 
 %description mod-userguide
 Kohana is an elegant HMVC PHP5 framework that provides 
