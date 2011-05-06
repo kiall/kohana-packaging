@@ -1,6 +1,6 @@
 Summary: KohanaPHP
 Name: kohana3.1
-Version: 3.1.2
+Version: 3.1.3
 Release: 3
 Group: Web/Frameworks
 License: BSD
